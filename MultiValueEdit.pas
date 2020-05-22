@@ -381,7 +381,6 @@ var
 begin
   if not Enabled then begin
     FState := bsDisabled;
-    //FDragging := False;
   end else if FState = bsDisabled then
     if Down and (GroupIndex <> 0) then
       FState := bsExclusive
@@ -874,16 +873,7 @@ begin
 end;
 
 procedure TCustomMultiValueEdit.KeyUp(var Key: Word; Shift: TShiftState);
-//var
-  //LLast: string;
 begin
-  {if (Key = Ord(FBreakChar) ) then begin
-    LLast := GetLastAdded();
-    if (Trim(LLast) <> EmptyStr) then begin
-      Clear();
-      AddControl(LLast);
-    end;
-  end;}
   inherited;
 end;
 
@@ -894,13 +884,7 @@ begin
 end;
 
 procedure TCustomMultiValueEdit.CMEnter(var Message: TCMGotFocus);
-//var
-  //I: Integer;
 begin
-  //for I := 0 to FButtons.Count - 1 do begin
-    //TWinControl(FButtons[I]).Visible := True;
-  //end;
-
   BoundControls();
   
   if AutoSelect and not (csLButtonDown in ControlState) then
@@ -909,13 +893,7 @@ begin
 end;
 
 procedure TCustomMultiValueEdit.CMExit(var Message: TCMExit);
-//var
-  //I: Integer;
 begin
-  //for I := 0 to FButtons.Count - 1 do begin
-    //TWinControl(FButtons[I]).Visible := False;
-  //end;
-
   BoundControls();
 end;
 
