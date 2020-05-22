@@ -926,7 +926,7 @@ end;
 
 procedure Register;
 begin
-  RegisterComponents('freeware', [TMultiValueEdit]);
+  RegisterComponents('LMBTec', [TMultiValueEdit]);
 end;
 
 end.
