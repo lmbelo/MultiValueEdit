@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{39EA3ADF-8F64-422C-86E2-D80F0F124BFD}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="VisualComponents.bpl">VisualComponents.bdsproj</Projects>
+      <Projects Name="MultiValueEditSample.exe">sample\MultiValueEditSample.bdsproj</Projects>
+      <Projects Name="Targets">VisualComponents.bpl MultiValueEditSample.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+  <StarTeamAssociation></StarTeamAssociation>
+  <StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>
